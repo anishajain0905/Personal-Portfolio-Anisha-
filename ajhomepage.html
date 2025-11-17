@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang= "en"> 
 <head>
-    <h1>Welcome to my little corner :)</h1>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Personal Portfolio</title>
     <style>
+        .container {
+            display:flex ;
+            flex-direction: column;
+            flex: 1;
+            width: 100%;
+            position: relative;
+        }
+
+        .title{
+            font: bolder;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: xx-large;
+            font-weight: 700;
+            user-select: none;
+            position:absolute;
+            left:30%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .top-bar{
+            display: flexbox;
+            
+        }
+
+        
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="title"> Welcome to my little corner :) </div>
+        </div>
+    </div>
 
 </body>
 </html>
