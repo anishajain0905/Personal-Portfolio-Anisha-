@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title> Personal Portfolio</title>
     <style>
+      body {
+        margin: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-weight: bold;
+        background: rgb(168, 159, 249);
+        color: black ;
+        display: flex;
+        min-height: 100vh;
+        overflow-x: hidden;
+        transition: background 0.3s, color 0.3s;
+        }
+
         .container {
             display:flex ;
             flex-direction: column;
@@ -28,9 +40,21 @@
         }
 
         .top-bar{
-            display: flexbox;
-            
+            display:block;
+            align-items: center;
+            padding: 40px 300px;
+            color:rgb(15, 15, 13);
+            position:relative;
+            background-color: rgb(200, 188, 243);
+            border-bottom: 4px;
+            width: 100%;         
         }
+
+        .LI-profile-badge {
+            margin-top: 200px;
+            margin-right: 150px;
+        }
+
 
         
     </style>
@@ -41,7 +65,7 @@
             <div class="title"> Welcome to my little corner :) </div>
         </div>
     </div>
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="anisha-jain-a8181a315" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://th.linkedin.com/in/anisha-jain-a8181a315?trk=profile-badge">Anisha Jain</a></div>
+    <div class="LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="anisha-jain-a8181a315" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://th.linkedin.com/in/anisha-jain-a8181a315?trk=profile-badge">Anisha Jain</a></div>
               
 </body>
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
